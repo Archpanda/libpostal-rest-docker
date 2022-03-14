@@ -5,7 +5,7 @@ parsing and normalizing street addresses. Using libpostal requires
 compiling a C program that downloads ~2GB of training data.
 
 This Dockerfile automates that compilation and creates a container
-with libpostal and [libpostal-rest](https://github.com/johnlonganecker/libpostal-rest) libpostal-rest which allows for a simple REST API
+with libpostal and [libpostal-rest](https://github.com/Archpanda/libpostal-rest) libpostal-rest which allows for a simple REST API
 that makes it easy interact with libpostal.
 
 ## Build image and start up container
@@ -32,4 +32,4 @@ File a Github issue
 ## Contributing
 Just submit a pull request :D
 
-See REST API [here](https://github.com/johnlonganecker/libpostal-rest) 
+See REST API [here](https://github.com/Archpanda/libpostal-rest) 
